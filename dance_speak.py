@@ -43,6 +43,8 @@ else:
             jazzystring += "\:DLLR\:"
         elif boring[letter] == "!":
             jazzystring += "\:BANG\:"
+        elif boring[letter] == ".":
+            jazzystring += "\:DOT\:"
         else:
             jazzystring += boring[letter]
     print("\n" + str(len(jazzystring)) + " regular characters copied to clipboard")    
