@@ -22,6 +22,8 @@ if(nitro=="y" or nitro==""):
             jazzystring += ":DLLR:"
         elif boring[letter] == "!":
             jazzystring += ":BANG:"
+        elif boring[letter] == ".":
+            jazzystring += ":DOT:"
         else:
             jazzystring += boring[letter]
     print("\n" + str(len(boring)) + " emotes copied to clipboard.\n" + str(len(jazzystring)) + " characters for those emotes.")            
