@@ -4,7 +4,7 @@ import string
 jazzystring = ""
 emote = False
 
-boring = input("Gimme text to make a difficult to read secret!\n").upper()
+boring = input("Gimme text to make a difficult to read secret!\n")
 
 for letter in range(len(boring)):
     if boring[letter] == ":":
